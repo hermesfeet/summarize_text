@@ -5,7 +5,7 @@ Some different NLP implementation of summarizing text
 Tests 2 tools to summarize text (TextTeaser and Gensim) versus a home-grown NLTK-based summarizer.
 
 ## Examples
-![Source article to summarize, from CNN on plane crashes] (https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
+[Source article to summarize, from CNN on plane crashes](https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
 
 ### 1) Gensim Summary Implemented:
 How it Works: Uses the TextRank algorithm to create sentences as nodes, and edges as similarity, to then rank top sentences.  The algorithm applies a variation of PageRank [20] over a graph constructed
@@ -56,6 +56,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Appendix - Corpora to Check Out
-![Word-level neural net Keras/LSTM overview] (https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
-![A Survey of Available Corpora for Building Data-Driven Dialogue Systems - UM Paper] (https://arxiv.org/pdf/1512.05742.pdf)
-![Dialogue Datasets] (https://breakend.github.io/DialogDatasets/)
+[awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)
+[Gensim Text Summarization](https://radimrehurek.com/gensim/summarization/summariser.html)
+[Summarizer from Scratch](https://towardsdatascience.com/write-a-simple-summarizer-in-python-e9ca6138a08e)
+[Sequence-to-Sequence with Attention Model for Text Summarization](https://github.com/tensorflow/models/tree/master/research/textsum)
