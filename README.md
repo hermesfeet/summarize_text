@@ -2,8 +2,8 @@
 Three different ways to summarize a single article of text, like a news article.
 
 ## What It Does
-**Goal**:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
-**Results**:  Gensim and the home-made NLTK generator do best - TextTeaser not so much as it messes up the sentence ordering.
+- **Goal**:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
+- **Results**:  Gensim and the home-made NLTK generator do best - TextTeaser not so much as it messes up the sentence ordering.
 
 ## Examples
 [Source article to summarize, from CNN on plane crashes](https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
