@@ -56,7 +56,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Appendix - Corpora to Check Out
-[awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)
-[Gensim Text Summarization](https://radimrehurek.com/gensim/summarization/summariser.html)
-[Summarizer from Scratch](https://towardsdatascience.com/write-a-simple-summarizer-in-python-e9ca6138a08e)
-[Sequence-to-Sequence with Attention Model for Text Summarization](https://github.com/tensorflow/models/tree/master/research/textsum)
+- [awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)
+- [Gensim Text Summarization](https://radimrehurek.com/gensim/summarization/summariser.html)
+- [Summarizer from Scratch](https://towardsdatascience.com/write-a-simple-summarizer-in-python-e9ca6138a08e)
+- [Sequence-to-Sequence with Attention Model for Text Summarization](https://github.com/tensorflow/models/tree/master/research/textsum)
