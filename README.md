@@ -2,8 +2,8 @@
 Three different ways to summarize a single article of text, like a news article.
 
 ## What It Does
-Goal:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
-Results:  Gensim and the home-made NLTK generator do best - TextTeaser not so much as it messes up the sentence ordering.
+**Goal**:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
+**Results**:  Gensim and the home-made NLTK generator do best - TextTeaser not so much as it messes up the sentence ordering.
 
 ## Examples
 [Source article to summarize, from CNN on plane crashes](https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
@@ -12,7 +12,7 @@ Results:  Gensim and the home-made NLTK generator do best - TextTeaser not so mu
 - **How it Works**: Uses the TextRank algorithm to create sentences as nodes, and edges as similarity, to then rank top sentences.  The algorithm applies a variation of PageRank [20] over a graph constructed
 specifically for the task of summarization. This produces a ranking of the elements in the graph: the most important elements are the ones that better describe the text. This approach allows TextRank to build summaries without the need of a training corpus or labeling and allows the use of the algorithm
 with different languages.  See:  [Variations of TextRank] (https://arxiv.org/pdf/1602.03606.pdf)
-- Summary:  Preliminary data recovered from the black boxes of last week's Ethiopian Airlines crash has revealed "similarities" to October's fatal Lion Air crash, the Ethiopian Minister of Transport said Sunday.
+- **Summary**:  Preliminary data recovered from the black boxes of last week's Ethiopian Airlines crash has revealed "similarities" to October's fatal Lion Air crash, the Ethiopian Minister of Transport said Sunday.
 According to a preliminary report on the crash, the pilots first manually corrected an "automatic aircraft nose down" two minutes after takeoff and performed the same procedure again and again before the plane hurtled nose-first into the Java Sea, the report said.
 Ethiopian Airlines CEO Tewolde GebreMariam has previously said the pilot of Flight 302 had "flight control problems" shortly before the plane crashed.
 
@@ -30,7 +30,9 @@ Ethiopian Airlines CEO Tewolde GebreMariam has previously said the pilot of Flig
 
 ## Running the different tools
 `$ python gensim_summary.py`
+
 `$ python textteaser_summary.py`
+
 `cd nltk_summary | python nltk_summary.py airline.txt`
 
 ## Built With / Dependencies
