@@ -1,8 +1,9 @@
-# summarize_text
-Some different NLP implementation of summarizing text
+# Summarize Text (summarize_text)
+Three different ways to summarize a single article of text, like a news article.
 
 ## What It Does
-Tests 2 tools to summarize text (TextTeaser and Gensim) versus a home-grown NLTK-based summarizer.
+Goal:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
+Results:  Gensim and the home-made NLTK generator do best - TextTeaser not so much as it messes up the sentence ordering.
 
 ## Examples
 [Source article to summarize, from CNN on plane crashes](https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
@@ -59,4 +60,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 - [awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)
 - [Gensim Text Summarization](https://radimrehurek.com/gensim/summarization/summariser.html)
 - [Summarizer from Scratch](https://towardsdatascience.com/write-a-simple-summarizer-in-python-e9ca6138a08e)
+- [Unsupervised text summarization using embeddings](https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1)
 - [Sequence-to-Sequence with Attention Model for Text Summarization](https://github.com/tensorflow/models/tree/master/research/textsum)
