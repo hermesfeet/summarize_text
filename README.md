@@ -1,5 +1,5 @@
 # Summarize Text (summarize_text)
-Three different ways to summarize a single article of text, like a news article.
+Three different ways to summarize a single article of text, like a news article.  This uses an extractive method (picks the best sentences and puts them in order), not an abstractive method (generating a new summary from scratch).
 
 ## What It Does
 - **Goal**:  Tests two off the shelf tools to summarize text (TextTeaser and Gensim) versus my home-grown NLTK-based summarizer.
