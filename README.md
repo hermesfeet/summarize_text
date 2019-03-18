@@ -5,9 +5,9 @@ Some different NLP implementation of summarizing text
 Tests 2 tools to summarize text (TextTeaser and Gensim) versus a home-grown NLTK-based summarizer.
 
 ## Examples
-- [Article from CNN on plane crashes] (https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
+![Source article to summarize, from CNN on plane crashes] (https://www.cnn.com/2019/03/17/africa/ethiopian-lion-air-crash-data-similarities-intl/index.html)
 
-### Gensim Summary:
+### 1) Gensim Summary Implemented:
 How it Works: Uses the TextRank algorithm to create sentences as nodes, and edges as similarity, to then rank top sentences.  The algorithm applies a variation of PageRank [20] over a graph constructed
 specifically for the task of summarization. This produces a ranking of the elements in the graph: the most important elements are the ones that better
 describe the text. This approach allows TextRank to build summaries without the need of a training corpus or labeling and allows the use of the algorithm
@@ -16,7 +16,7 @@ Summary:  Preliminary data recovered from the black boxes of last week's Ethiopi
 According to a preliminary report on the crash, the pilots first manually corrected an "automatic aircraft nose down" two minutes after takeoff and performed the same procedure again and again before the plane hurtled nose-first into the Java Sea, the report said.
 Ethiopian Airlines CEO Tewolde GebreMariam has previously said the pilot of Flight 302 had "flight control problems" shortly before the plane crashed.
 
-### TextTeaser Summary:
+### 2) TextTeaser Summary Implemented:
 How it Works: Cleans up text by removing stop words and spaces.  Gets top key words after tokenization and gives it a score - then orders the sentences by the total score.
 Summary:  Moges did not provide additional details about the purported "similarities" between the two crashes but said they would be "subject to further investigation."
 Ethiopian Airlines Flight 302 crashed March 10, six minutes after takeoff, killing all 157 people on board.
@@ -24,7 +24,7 @@ It was the second disaster involving a new Boeing 737 Max 8 aircraft in less tha
 Ethiopian Airlines CEO Tewolde GebreMariam has previously said the pilot of Flight 302 had "flight control problems" shortly before the plane crashed.
 "He was having difficulties with the flight control of the airplane, so he asked to return back to base," GebreMariam said.
 
-### Home-grown NLTK Summary:
+### 3) Home-grown NLTK Summary:
 How it Works:  Cleans up the text to removes spaces, tabs, stop words, etc, then word and sentence tokenizes it.  Does a word frequency count and then ranks sentences by highest word frequencies, and then outputs top sentences.
 Summary:  Preliminary data recovered from the black boxes of last week's Ethiopian Airlines crash has revealed "similarities" to October's fatal Lion Air crash, the Ethiopian Minister of Transport said Sunday. Ethiopian Airlines CEO Tewolde GebreMariam has previously said the pilot of Flight 302 had "flight control problems" shortly before the plane crashed.
 
@@ -56,6 +56,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Appendix - Corpora to Check Out
-- [Word-level neural net Keras/LSTM overview] (https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
-- [A Survey of Available Corpora for Building Data-Driven Dialogue Systems - UM Paper] (https://arxiv.org/pdf/1512.05742.pdf)
-- [Dialogue Datasets] (https://breakend.github.io/DialogDatasets/)
+![Word-level neural net Keras/LSTM overview] (https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
+![A Survey of Available Corpora for Building Data-Driven Dialogue Systems - UM Paper] (https://arxiv.org/pdf/1512.05742.pdf)
+![Dialogue Datasets] (https://breakend.github.io/DialogDatasets/)
